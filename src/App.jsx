@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import vega8 from "../public/bg_vega8.png"
 
 const VIEWPORT_PADDING = 16;
 const FIREWORK_DURATION_MS = 4200;
@@ -183,7 +184,7 @@ export default function App() {
 
   return (
     <>
-      <img src="/bg_vega8.png" alt="Vega 8" className="logo" />
+      <img src={vega8} alt="Vega 8" className="logo" />
 
       <div className="container" id="container">
         <h1>wach bghiti t9ad site web 3and vega 8 ??</h1>
